@@ -98,4 +98,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🧑‍💻 Contributing
 
-Contributions welcome! Feel free to open issues or submit PRs on [GitHub](https://github.com/AdamIH1/python-vs-cpp-speed).
+Contributions welcome! Feel free to open issues or submit PRs on [GitHub](https://github.com/AdamIH1/python-vs-cpp/tree/main).
