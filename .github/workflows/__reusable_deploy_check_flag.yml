@@ -1,0 +1,23 @@
+name: Reusable Deploy Flag Check
+
+on:
+  workflow_call:
+    outputs:
+      deploy_enabled:
+        description: "Whether deployment is enabled"
+        value: ${{ jobs.deploy_flag_check.outputs.deploy_enabled }}
+
+jobs:
+  deploy_flag_check:
+    name: Check Deploy Flag
+    runs-on: ubuntu-latest
+    outputs:
+      deploy_enabled: ${{ steps.deploy_flag_check_.outputs.deploy_enabled }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run deploy flag check
+        id: deploy_flag_check_
+        run: python scripts/check_deployment.py
