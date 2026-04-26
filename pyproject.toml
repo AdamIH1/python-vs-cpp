@@ -1,0 +1,50 @@
+[project] 
+name = "python_vs_cpp"
+dynamic = ["version"]
+description = "A Python package comparing Python vs C++ performance with Pybind11"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    {name = "Adam Hansen"}
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3", 
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[build-system]
+requires = [
+    "scikit-build-core>=0.11.6",
+    "cmake>=3.15",
+    "pybind11>=2.11"
+]
+build-backend = "scikit_build_core.build"
+
+[tool.scikit-build] 
+cmake.minimum-version = "3.15"
+cmake.build-type = "Release"
+wheel.packages = ["src/python_vs_cpp"]
+
+
+[tool.scikit-build.metadata.version]
+provider = "scikit_build_core.metadata.regex"
+input = "src/python_vs_cpp/__init__.py"
+pattern = '__version__ = "(?P<value>.*)"'
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 80
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+
