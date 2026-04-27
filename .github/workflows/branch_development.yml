@@ -57,7 +57,7 @@ jobs:
           secret: ${{ github.TOKEN }}
           minimum-approvals: 1
           issue-title: "Approve Deployment to TestPyPI"
-          issue-body: "Approve deployment to TestPyPI for this branch."
+          issue-body: "Approve deployment to TestPyPI for ${{ github.ref_name }}."
  
   build:
     needs: [manual_approval]
