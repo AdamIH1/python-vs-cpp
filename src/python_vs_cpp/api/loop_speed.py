@@ -1,7 +1,7 @@
 from typing import Optional
 
 from ..loop_clocking.python_loop_speed import run_speed_test_python
-from ..loop_clocking.cpp_loop_speed import run_speed_test_cpp 
+from ..loop_clocking.cpp_loop_speed import run_speed_test_cpp
 
 def compare_loop_speed(num_loops: Optional[int] = None, verbose: bool = True):
     """
@@ -21,14 +21,14 @@ def compare_loop_speed(num_loops: Optional[int] = None, verbose: bool = True):
     py_time = run_speed_test_python(num_loops)
     if verbose:
         print(f"Completed {num_loops} loops in {py_time:.4f} ms")
-    
+
     # Run C++ version
     if verbose:
         print("---C++ Version ---")
     cpp_time = run_speed_test_cpp(num_loops)
     if verbose:
         print(f"Completed {num_loops} loops in {cpp_time:.4f} ms")
-    
+
     # Show comparison
     speedup = py_time / cpp_time if cpp_time > 0 else 0
 
@@ -37,5 +37,5 @@ def compare_loop_speed(num_loops: Optional[int] = None, verbose: bool = True):
         print(f"Python: {py_time:.4f} ms")
         print(f"C++:    {cpp_time:.4f} ms")
         print(f"C++ is {speedup:.2f}x faster")
-    
+
     return {'python_ms': py_time, 'cpp_ms': cpp_time, 'speedup': speedup}
