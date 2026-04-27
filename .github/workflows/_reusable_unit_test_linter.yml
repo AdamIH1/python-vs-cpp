@@ -1,4 +1,4 @@
-name: Reusable CI
+name: Reusable Unit Test and Linter
 
 on:
   workflow_call:
