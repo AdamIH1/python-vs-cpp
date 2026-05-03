@@ -1,5 +1,12 @@
 # python-vs-cpp-speed
 
+[![Unit Tests Linter](https://github.com/AdamIH1/python-vs-cpp-speed/actions/workflows/unit_test_linter.yml/badge.svg?branch=main&label=Unit%20Tests)](https://github.com/AdamIH1/python-vs-cpp-speed/actions/workflows/unit_test_linter.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+
+
+#
+
 A Python package that benchmarks pure Python vs C++ loop performance using **Pybind11**.
 
 > **Disclaimer:** This repository is primarily for learning and templating purposes, demonstrating PyPI package development, Pybind11 bindings, and GitHub Actions workflows.
@@ -17,7 +24,7 @@ A Python package that benchmarks pure Python vs C++ loop performance using **Pyb
 ## 📦 Installation
 
 ```bash
-pip install python-vs-cpp
+pip install python-vs-cpp-speed
 ```
 
 > Requires Python ≥ 3.9. Prebuilt wheels available for Windows, macOS, and Linux.  
@@ -28,7 +35,7 @@ pip install python-vs-cpp
 ## 🚀 Quickstart
 
 ```python
-import python_vs_cpp as pvc
+import python_vs_cpp_speed as pvc
 
 results = pvc.compare_loop_speed(num_loops=1_000_000)
 ```
@@ -52,7 +59,7 @@ C++ is 67.88x faster
 ### `compare_loop_speed`
 
 ```python
-from python_vs_cpp import compare_loop_speed
+from python_vs_cpp_speed import compare_loop_speed
 
 compare_loop_speed(
     num_loops: Optional[int] = None,
@@ -98,4 +105,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🧑‍💻 Contributing
 
-Contributions welcome! Feel free to open issues or submit PRs on [GitHub](https://github.com/AdamIH1/python-vs-cpp/tree/main).
+Contributions welcome! Feel free to open issues or submit PRs on [GitHub](https://github.com/AdamIH1/python-vs-cpp-speed/tree/main).

@@ -1,9 +1,9 @@
 import pytest
-from python_vs_cpp.loop_clocking import (
+from python_vs_cpp_speed.loop_clocking import (
     run_speed_test_python
 )
 
-from python_vs_cpp.loop_clocking import (
+from python_vs_cpp_speed.loop_clocking import (
     run_speed_test_cpp
 )
 

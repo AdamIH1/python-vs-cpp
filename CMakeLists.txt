@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(python_vs_cpp LANGUAGES CXX)
+project(python_vs_cpp_speed LANGUAGES CXX)
 
 find_package(Python COMPONENTS Interpreter Development REQUIRED)
 find_package(pybind11 REQUIRED)
@@ -13,4 +13,4 @@ pybind11_add_module(
 target_include_directories(cpp_speed_test PRIVATE cpp/include)
 
 # Install the compiled module to the python_vs_cpp/loop_clocking package directory
-install(TARGETS cpp_speed_test LIBRARY DESTINATION python_vs_cpp/loop_clocking)
+install(TARGETS cpp_speed_test LIBRARY DESTINATION python_vs_cpp_speed/loop_clocking)
