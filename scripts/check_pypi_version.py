@@ -14,8 +14,8 @@ from pathlib import Path
 from typing import List, Optional
 from packaging.version import Version
 
-PACKAGE_NAME = "latlng_to_state"
-PACKAGE_PATH = "latlng_to_state"
+PACKAGE_NAME = "python-vs-cpp-speed"
+PACKAGE_PATH = "python-vs-cpp-speed"
 
 TEST_PYPI_URL = "https://test.pypi.org/pypi"
 PROD_PYPI_URL = "https://pypi.org/pypi"
