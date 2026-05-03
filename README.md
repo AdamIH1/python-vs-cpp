@@ -1,6 +1,6 @@
 # python-vs-cpp-speed
 
-[![Unit Tests Linter](https://github.com/AdamIH1/python-vs-cpp-speed/blob/dev/.github/workflows/unit_test_linter.yml/badge.svg?branch=main)](https://github.com/AdamIH1/python-vs-cpp-speed/blob/dev/.github/workflows/unit_test_linter.yml)
+[![Unit Tests Linter](https://github.com/AdamIH1/python-vs-cpp-speed/actions/workflows/unit_test_linter.yml/badge.svg?branch=main&label=Unit%20Tests)](https://github.com/AdamIH1/python-vs-cpp-speed/actions/workflows/unit_test_linter.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
