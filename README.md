@@ -17,7 +17,7 @@ A Python package that benchmarks pure Python vs C++ loop performance using **Pyb
 ## 📦 Installation
 
 ```bash
-pip install python-vs-cpp
+pip install python-vs-cpp-speed
 ```
 
 > Requires Python ≥ 3.9. Prebuilt wheels available for Windows, macOS, and Linux.  
@@ -28,7 +28,7 @@ pip install python-vs-cpp
 ## 🚀 Quickstart
 
 ```python
-import python_vs_cpp as pvc
+import python_vs_cpp_speed as pvc
 
 results = pvc.compare_loop_speed(num_loops=1_000_000)
 ```
@@ -98,4 +98,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🧑‍💻 Contributing
 
-Contributions welcome! Feel free to open issues or submit PRs on [GitHub](https://github.com/AdamIH1/python-vs-cpp/tree/main).
+Contributions welcome! Feel free to open issues or submit PRs on [GitHub](https://github.com/AdamIH1/python-vs-cpp-speed/tree/main).
