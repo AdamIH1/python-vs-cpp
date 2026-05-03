@@ -29,7 +29,7 @@ requires = [
 build-backend = "scikit_build_core.build"
 
 [tool.scikit-build] 
-cmake.version = "3.15"
+cmake.version = ">=3.15"
 cmake.build-type = "Release"
 wheel.packages = ["src/python_vs_cpp_speed"]
 
@@ -47,4 +47,3 @@ line-length = 80
 
 [tool.ruff.lint]
 select = ["E", "F", "W"]
-
