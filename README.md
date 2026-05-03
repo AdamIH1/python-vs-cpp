@@ -59,7 +59,7 @@ C++ is 67.88x faster
 ### `compare_loop_speed`
 
 ```python
-from python_vs_cpp import compare_loop_speed
+from python_vs_cpp_speed import compare_loop_speed
 
 compare_loop_speed(
     num_loops: Optional[int] = None,
