@@ -1,6 +1,6 @@
 import pytest
 
-from python_vs_cpp.api import compare_loop_speed
+from python_vs_cpp_speed.api import compare_loop_speed
 
 @pytest.fixture
 def loop_result():
