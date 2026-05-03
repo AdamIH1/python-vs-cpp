@@ -73,13 +73,13 @@ jobs:
       contents: read
     steps:
       - name: Download all wheels
-        uses: actions/download-artifact@v8
+        uses: actions/download-artifact@v6
         with:
           pattern: wheels-*
           path: dist/
           merge-multiple: true
       - name: Download sdist
-        uses: actions/download-artifact@v8
+        uses: actions/download-artifact@v6
         with:
           name: sdist
           path: dist/
@@ -87,4 +87,3 @@ jobs:
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           repository-url: https://test.pypi.org/legacy/
-          skip-existing: true
