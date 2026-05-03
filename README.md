@@ -1,5 +1,12 @@
 # python-vs-cpp-speed
 
+[![Unit Tests Linter](https://github.com/AdamIH1/python-vs-cpp-speed/blob/dev/.github/workflows/unit_test_linter.yml/badge.svg?branch=main)](https://github.com/AdamIH1/python-vs-cpp-speed/blob/dev/.github/workflows/unit_test_linter.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+
+
+#
+
 A Python package that benchmarks pure Python vs C++ loop performance using **Pybind11**.
 
 > **Disclaimer:** This repository is primarily for learning and templating purposes, demonstrating PyPI package development, Pybind11 bindings, and GitHub Actions workflows.
