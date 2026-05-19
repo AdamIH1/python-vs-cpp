@@ -1,9 +1,11 @@
 # python-vs-cpp-speed
 
 [![Unit Tests Linter](https://github.com/AdamIH1/python-vs-cpp-speed/actions/workflows/unit_test_linter.yml/badge.svg?branch=main&label=Unit%20Tests)](https://github.com/AdamIH1/python-vs-cpp-speed/actions/workflows/unit_test_linter.yml)
+[![PyPi Prod Deploy](https://github.com/AdamIH1/python-vs-cpp-speed/actions/workflows/prod_deploy.yml/badge.svg?branch=main&label=Prod%20Deploy)](https://github.com/AdamIH1/python-vs-cpp-speed/actions/workflows/prod_deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/python-vs-cpp-speed?period=total&units=ABBREVIATION&left_color=GREY&right_color=BRIGHTGREEN&left_text=downloads)](https://pepy.tech/projects/python-vs-cpp-speed)
 
 #
 
