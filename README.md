@@ -5,6 +5,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/python-vs-cpp-speed?period=total&units=ABBREVIATION&left_color=GREY&right_color=BRIGHTGREEN&left_text=downloads)](https://pepy.tech/projects/python-vs-cpp-speed)
+
 #
 
 A Python package that benchmarks pure Python vs C++ loop performance using **Pybind11**.
